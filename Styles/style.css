@@ -1,7 +1,7 @@
 @import 'variable.css';
 
 body{
-    background-color: var(--black-1) !important;
+    background-color: var(--background-color) !important;
     font-family: 'Inter', sans-serif !important;
 }
 
@@ -42,7 +42,6 @@ div .mb-3 {
 }
 
 .curto {
-
     margin: 12px auto 0px auto;
     border: 1px solid var(--black-3);
     border-radius: 5px;
@@ -51,6 +50,7 @@ div .mb-3 {
     padding-left: 15px !important;
     font-size: 11px !important;
     color: var(--black-2);
+    outline: none;
 }
 
 div .customInput {
@@ -64,6 +64,11 @@ div .customInput {
     color: var(--black-2);
     text-decoration: none !important;
 
+}
+
+input {
+    -webkit-rtl-ordering: none !important;
+    cursor: pointer !important;
 }
 
 input::-webkit-input-placeholder{
@@ -195,9 +200,8 @@ p {
 }
 
 .bg-form2 {
-   
-    width: 375px;
-    height: 360px;
+    width: 299px;
+    height: 348px;
 }
 
 .txt1 {
