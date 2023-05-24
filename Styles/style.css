@@ -83,6 +83,7 @@ input::-webkit-input-placeholder{
     outline: none;
     border: 1px solid red !important;
     font-style: italic red !important;
+    box-shadow: none !important;
 }
 
 .customInput {
@@ -97,6 +98,7 @@ input::-webkit-input-placeholder{
     outline: none;
     border: 1px solid red !important;
     font-style: italic red !important;
+    box-shadow: none !important;
 }
 
 
