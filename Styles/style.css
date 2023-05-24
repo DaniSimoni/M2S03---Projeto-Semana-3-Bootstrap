@@ -1,5 +1,9 @@
 @import 'variable.css';
 
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: var(--background-color) !important;
     font-family: 'Inter', sans-serif !important;
